@@ -1,0 +1,77 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#section-one {
+    background-image: url(img/strawberry-smoothie-table-top.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.h2 {
+    font-weight: 800;
+    font-size: 32px;
+    color: white;
+}
+
+.text-muted {
+    color: black !important;
+}
+
+.navbar {
+    font-weight: 700;
+}
+
+.navbar-toggler-icon {
+    background-image: url(img/icons8-expand-arrow-64\ \(1\).png)
+}
+
+.navbar a {
+    color: white;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+}
+
+.btn-primary {
+    background-color: #ffaf1a; 
+    border-color: #ffaf1a;
+}
+
+.btn-primary:hover {
+    background-color: #ffb833;
+    border-color: #ffb833;
+}
+
+#fresh-life {
+    float: left;
+    width: 300px;
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+
+#section-two {
+    background-color: #01b9b9;
+    width: 100%;
+    height: 500px;
+}
+
+#about-us {
+    width: 500px;
+    position: relative;
+    float: right;
+    top: 30%;
+    right: 5%;
+}
+
+#section-two img {
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
