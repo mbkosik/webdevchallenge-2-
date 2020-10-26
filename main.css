@@ -17,7 +17,7 @@ body {
 }
 
 .text-muted {
-    color: black !important;
+    color: white !important;
 }
 
 .navbar {
@@ -65,7 +65,7 @@ body {
     width: 500px;
     position: relative;
     float: right;
-    top: 30%;
+    top: 40%;
     right: 5%;
 }
 
@@ -75,3 +75,28 @@ body {
     top: 20%;
 }
 
+.row {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #section-two img {
+        width: 250px;
+    } 
+
+    #section-two {
+        height: 100%;
+    }
+
+    #about-us
+    {
+       position: relative;
+       left: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    #about-us {
+        margin-top: 60px;
+    }
+}
