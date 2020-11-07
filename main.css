@@ -8,6 +8,9 @@ body {
     background-color: #ffaf1a;
 }
 
+p {
+    color: white;
+}
 p::first-letter {
     font-size: 30px; 
     font-weight: 700;
@@ -48,12 +51,12 @@ p::first-letter {
     color: whitesmoke;
 }
 
-.btn-primary {
+#fresh-life .btn-primary {
     background-color: #ffaf1a; 
     border-color: #ffaf1a;
 }
 
-.btn-primary:hover {
+#fresh-life .btn-primary:hover {
     background-color: #ffb833;
     border-color: #ffb833;
 }
@@ -93,7 +96,7 @@ p::first-letter {
 #section-three {
     background-color: #70C0FF;
     width: 100%;
-    height: 500px; 
+    height: 530px; 
 }
 
 #section-three img {
@@ -127,6 +130,33 @@ p::first-letter {
     margin-left: 2px;
 }
 
+#section-four {
+    background-color: #FEE92E;
+    width: 100%;
+    height: 500px;
+}
+
+#gallery {
+    text-align: center;
+    padding-top: 10px; 
+    font-size: 40px; 
+}
+#section-four-gallery {
+    width: 90%;
+    margin: auto; 
+}
+
+#section-four p {
+    font-size: 16px; 
+    text-align: justify;
+    margin: auto; 
+    width: 500px; 
+}
+
+#section-four p::first-letter {
+    font-size: 16px; 
+    font-weight: 400;
+}
 @media (max-width: 768px) {
     #fresh-life {
         width: 300px;
