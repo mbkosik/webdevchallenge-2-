@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+ 
+.icon-archive:before { content: '\e738'; } /* '' */
+.icon-basket:before { content: '\e73d'; } /* '' */
+.icon-globe:before { content: '🌎'; } /* '\1f30e' */
+.icon-award:before { content: '🏉'; } /* '\1f3c9' */
