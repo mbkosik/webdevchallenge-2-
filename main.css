@@ -54,6 +54,7 @@ p::first-letter {
 #fresh-life .btn-primary {
     background-color: #ffaf1a; 
     border-color: #ffaf1a;
+    border-radius: 8px;
 }
 
 #fresh-life .btn-primary:hover {
@@ -111,6 +112,7 @@ p::first-letter {
     position: relative;
     top: 20%;
     left: 15%;
+    border-radius: 8px;
 }
 
 #section-three-buttons ul {
@@ -120,7 +122,7 @@ p::first-letter {
 #section-three-buttons ul li button {
     margin-top: 50px;
     height: 70px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 700;
     width: 400px;
 }
@@ -133,7 +135,7 @@ p::first-letter {
 #section-four {
     background-color: #FEE92E;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 #gallery {
@@ -144,6 +146,22 @@ p::first-letter {
 #section-four-gallery {
     width: 90%;
     margin: auto; 
+    padding-top: 20px;
+}
+
+#section-four-gallery img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.2s ease-in-out
+}
+
+#section-four-gallery img:hover {
+    -webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
 }
 
 #section-four p {
@@ -156,6 +174,11 @@ p::first-letter {
 #section-four p::first-letter {
     font-size: 16px; 
     font-weight: 400;
+}
+
+#section-four button {
+    margin-bottom: 15px;
+    border-radius: 8px;
 }
 @media (max-width: 768px) {
     #fresh-life {
