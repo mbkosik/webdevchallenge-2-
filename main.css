@@ -11,10 +11,6 @@ body {
 p {
     color: white;
 }
-p::first-letter {
-    font-size: 30px; 
-    font-weight: 700;
-}
 
 #section-one {
     background-image: url(img/strawberry-smoothie-table-top.png);
@@ -178,7 +174,35 @@ p::first-letter {
 
 #section-four button {
     margin-bottom: 15px;
-    border-radius: 8px;
+}
+
+#section-five {
+    background-image: url(img/pexels-karolina-grabowska-5202055.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 0 -400px;
+    margin-top: -10px;
+}
+
+#subscribe {
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#subscribe h2 {
+    color: #28a745;
+}
+
+#subscribe p {
+    color: black;
+}
+
+#subscribe button, input {
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
 }
 @media (max-width: 768px) {
     #fresh-life {
