@@ -204,6 +204,58 @@ p {
     width: 400px;
     margin-top: 20px;
 }
+
+#section-six {
+    background-color: #AB7CF9;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#section-six p {
+    width: 50%;
+    margin: auto;
+}
+
+#blog {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#blog .col {
+    padding: 0 20px;
+}
+
+.post-thumbnail {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.2s ease-in-out
+}
+
+.post-thumbnail:hover {
+    -webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+#blog .title {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #A8A8A8;
+    opacity: 0.5;
+    width: 425px;
+    color: white;
+}
+
 @media (max-width: 768px) {
     #fresh-life {
         width: 300px;
