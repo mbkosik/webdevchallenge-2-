@@ -284,6 +284,32 @@ p {
     text-align: justify;
 }
 
+#contact-form input, textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #81D5D3;
+    border: 2px solid #70C4C2;
+    opacity: 0.6;
+    color: white;
+}
+
+#contact-form input:focus, textarea:focus {
+    background-color: #92E6E4;
+}
+
+#contact-form input::selection, textarea::selection {
+    background-color: #70C4C2;
+}
+
+.btn-info {
+    background-color: #81D5D3;
+}
+
+.btn-info:hover {
+    background-color: #92E6E4;
+}
+
 footer {
     background-color: #2A2A2A;
     width: 100%;
